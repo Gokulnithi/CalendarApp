@@ -186,6 +186,7 @@
     .app{
         flex-direction: column;
         height: 100vh !important;
+        overflow-y:scroll;
     }
     .my-calendar{
         height: 100%;
