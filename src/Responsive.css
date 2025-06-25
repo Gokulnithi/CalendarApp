@@ -1,0 +1,215 @@
+@media (min-width: 991.98px) {
+    .side-nav-bar ul li {
+        padding: 12px;
+    }
+    .side-nav-bar ul li button{
+        width: 25px;
+        height: 25px;
+    }
+    .side-nav-bar ul li button span .fi {
+        font-size: 13px !important;
+    }
+
+    .rbc-btn-group > button {
+        padding: 16px 19px !important;
+    }
+
+    .rbc-toolbar{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 30px !important;
+        padding-top: 5px !important;
+        margin-bottom: 30px;
+        position: relative;
+        font-size: 16px;
+    }
+    .rbc-btn-group{
+        box-shadow:  1px 1px 13px #e7e7e7,
+        -1px -1px 13px #ffffff;
+        overflow: hidden;
+
+    }
+}
+
+@media (max-width: 991.98px) {
+  .rbc-toolbar-label {
+    font-size: 25px;
+    position: relative;
+  }
+
+  .rbc-btn-group > button {
+    padding: 14px 17px !important;
+  }
+  .rbc-toolbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px !important;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 14px;
+}
+.rbc-toolbar .rbc-toolbar-label {
+    padding: 0 0px;
+    font-size: 22px;
+
+}
+.side-nav-bar ul li {
+    padding: 12px;
+}
+.side-nav-bar ul li button{
+    width: 22px;
+    height: 22px;
+
+}
+.side-nav-bar ul li button span .fi{
+    font-size: 12px !important;
+    bottom:1px;
+   }
+}
+
+
+@media (max-width: 767.98px) {
+
+    /* header toolbar  */
+    .rbc-toolbar{
+        display: flex;
+        flex-direction: row;
+        padding: 0px 0px !important;
+        margin-bottom: 20px;
+        position: relative;
+        font-size: 13px;
+    }
+    .rbc-btn-group{
+        border-radius:0px;
+        box-shadow:none !important;
+        overflow: hidden;
+        flex-basis: 40%;
+        text-align: start;
+        margin: 0px 30px;
+      }
+
+     .rbc-toolbar span:nth-child(1){
+        text-align: end;
+      }
+
+      .rbc-btn-group > button{
+      border-radius:none !important;
+      }
+    .rbc-toolbar span:nth-child(2){
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    .rbc-toolbar span:nth-child(2){
+        order: 3;
+        margin-top: 20px;
+        text-align: center;
+     
+    }
+    .rbc-toolbar-label::before{
+        width: 0%;     
+      }
+
+    .rbc-toolbar .rbc-toolbar-label {
+        padding: 0 0px;
+        font-size: 16px;
+
+    }
+    .rbc-btn-group{
+        box-shadow:  1px 1px 13px #ededed,
+        -1px -1px 13px #ffffff;
+        overflow: hidden;
+
+    }
+    .rbc-btn-group > button {
+        padding: 11px 13px !important;
+      }
+    /* side bar  */
+    .side-nav-bar ul li {
+        padding: 10px;
+    }
+    .side-nav-bar ul li button{
+        width: 20px;
+        height: 20px;
+    }
+    .side-nav-bar ul li button span .fi {
+        font-size: 11px !important;
+        bottom: 2px !important;
+    }
+
+    /* month view  */
+    .rbc-month-view{
+        font-size: 14px;
+    }
+}
+@media (max-width: 665px) {
+
+    .rbc-toolbar .rbc-btn-group{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .rbc-toolbar .rbc-btn-group:nth-child(1){
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .rbc-btn-group > button {
+        padding: 7px 9px !important;
+      }
+      .my-calendar{
+        padding-top: 10px;
+      }
+      .rbc-toolbar .rbc-toolbar-label {
+        margin-top: 8px !important;
+    }
+    .rbc-month-view{
+        font-size: 13px;
+    }
+
+    .rbc-time-slot .rbc-label{
+        font-size: 13px;
+    }
+    /* .rbc-time-view .rbc-time-header-gutter{
+        width: 38.1875px;
+        min-width: 65.1875px;
+        max-width: 78.1875px;
+    } */
+
+}
+
+@media (max-width: 444px) {
+    .rbc-btn-group > button {
+        font-size: 13px !important;
+      }
+    .rbc-calendar *, .rbc-calendar *:before, .rbc-calendar *:after {
+        box-sizing: inherit;
+        font-size: 12px;
+    }
+    .app{
+        flex-direction: column;
+        height: 100vh !important;
+    }
+    .my-calendar{
+        height: 100%;
+    }
+    .side-nav-bar{
+    padding:10px 0px !important;
+
+    }
+    .side-nav-bar ul{
+        flex-direction: row;
+        height: 29px;
+        position: relative;
+        margin:0;
+    }
+    .side-nav-bar ul li:first-child {
+       position: absolute;
+       left: 10px;
+       top:50%;
+       transform: translateY(-50%);
+    }
+    .side-nav-bar ul li:last-child {
+        position: absolute;
+        right: 10px;
+        top:-30%;
+    }
+
+}
